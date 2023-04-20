@@ -28,6 +28,7 @@ main {
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    flex-grow: 1;
 }
 
 .card {
