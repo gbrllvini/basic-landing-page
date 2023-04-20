@@ -92,9 +92,9 @@ footer {
     display: inline-block;
     border-radius: 100%;
     overflow: hidden;
-    height: 280px;
-    width: 200px;
-    background: url(./images/face.jpg);
+    height: 300px;
+    width: 300px;
+    background: url(./images/imagem.jpg);
     background-size: cover;
 }
 
