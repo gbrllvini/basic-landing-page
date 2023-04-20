@@ -10,14 +10,75 @@ body {
 
 header {
     text-align: center;
-    width: 100%;
     background-color: #800080;
-    padding: 1rem;
-    font-size: 1rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 header h1 {
     color: white;
     margin: auto;
     letter-spacing: 2px;
+    font-size: 2rem;
+}
+
+main {
+    padding: 2.5em;
+    height: 65vh;
+    background: url(./images/people.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.card {
+    padding: 1rem;
+    max-width: 20%;
+    float: right;
+    border-radius: 10px;
+    background-color: #d896ff86;
+}
+
+.card h2 {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    font-size: 1.3rem;
+}
+
+.mb {
+    margin-bottom: 1.5rem;
+}
+
+.card input,
+select {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: #800080;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #501374;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(./images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 1rem);
 }
