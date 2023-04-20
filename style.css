@@ -1,0 +1,23 @@
+html,
+body {
+    font-family: 'Chivo Mono', monospace;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    background-color: #800080;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+header h1 {
+    color: white;
+    margin: auto;
+    letter-spacing: 2px;
+}
