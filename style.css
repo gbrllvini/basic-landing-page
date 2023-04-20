@@ -80,37 +80,30 @@ select {
 }
 
 footer {
-    max-height: fit-content;
+    text-align: center;
+    background-color: black;
+    padding: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
 }
 
-.footer_desc {
-    padding: 2.5em;
-    width: 50%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.image {
-    display: flex;
-    align-items: center;
+.imageBox {
+    display: inline-block;
     border-radius: 100%;
     overflow: hidden;
-    height: 40%;
-    width: 40%;
-    margin-right: 1.5em;
+    height: 280px;
+    width: 200px;
+    background: url(./images/face.jpg);
+    background-size: cover;
 }
 
-.image img {
-    width: 100%;
-}
+
 
 .desc {
+    display: inline-block;
     margin-left: 1.5em;
     color: white;
+    text-align: left;
+    max-width: 40%;
 }
