@@ -90,7 +90,7 @@ footer {
 
 .imageBox {
     display: inline-block;
-    border-radius: 100%;
+    border-radius: 50%;
     overflow: hidden;
     height: 250px;
     width: 250px;
